@@ -1,0 +1,258 @@
+#div1 {
+    background-image: url(background.jpg);
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    filter: blur(1.5);
+}
+
+#divm {
+    background-image: url(background1.jpg);
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+#div3 {
+    position: relative;
+    background: rgba(31, 29, 29, 0.5);
+    height: 80px;
+    width: 100%;
+}
+
+.div2 {
+    position: absolute;
+}
+
+.ul1 {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 80px;
+    position: sticky;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li .aa {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+
+ul li .aa:hover {
+    border-bottom: 4px solid rgba(235, 117, 7, 0.932);
+    background-color: rgb(68, 68, 85);
+}
+
+.divsub {
+    display: none;
+}
+
+#div2 ul li:hover .divsub {
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    background-color: rgb(68, 68, 85);
+    margin-left: 80px;
+}
+
+#div2 ul li:hover .divsub ul li {
+    display: block;
+    padding: 15px;
+}
+
+.divsub ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.divsub ul li:hover {
+    background-color: rgb(219, 135, 9);
+}
+
+.divsub a:hover {
+    color: white;
+}
+
+.divsub #div2 img {
+    height: 95px;
+    width: 120px;
+    margin-left: 110px;
+}
+
+.div4 {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    font-size: x-large;
+}
+
+.div4 h2 pre,
+#pr {
+    color: white;
+}
+
+.div4 h1 {
+    color: rgb(219, 135, 9);
+}
+
+.div4 p a {
+    text-decoration: none;
+    color: white;
+    border: 1px white solid;
+    width: 95px;
+    font-size: large;
+    padding: 10px;
+    margin-left: 128px;
+}
+
+.div4 p a:hover {
+    background-color: rgba(19, 17, 17, 0.911);
+    border: 1px solid rgba(235, 117, 7, 0.932);
+}
+
+#div5 footer {
+    background-color: rgb(186, 199, 223);
+    height: 50px;
+    width: auto;
+}
+
+.div6 {
+    text-align: center;
+}
+
+.div6 hr {
+    width: 220px;
+    background-color: rgb(219, 135, 9);
+    size: 2px;
+}
+
+.div6 .tab1,
+tr,
+td {
+    border: 1px solid rgb(109, 105, 105);
+    border-collapse: collapse;
+    padding: 13.5px;
+    margin-top: 80px;
+}
+
+.tab1 tr td a {
+    text-decoration: none;
+    color: rgb(71, 69, 69);
+    padding: 20px;
+}
+
+.tab1 tr td:hover {
+    background-color: rgb(219, 135, 9);
+}
+
+.tab1 tr td a:hover {
+    color: white;
+}
+
+.active {
+    background-color: rgb(219, 135, 9);
+}
+
+.active a {
+    display: block;
+}
+
+.tab1 {
+    margin-left: 550px;
+}
+
+.div8 img {
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 250px;
+    border: outset 5px white;
+    text-shadow: rgb(109, 105, 105);
+    float: left;
+}
+
+.div77 img {
+    width: 300px;
+    height: 200px;
+    margin-top: 90px;
+    margin-left: -350px;
+    border: outset 5px white;
+    text-shadow: rgb(109, 105, 105);
+    float: left;
+}
+
+.div9 aside {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.div9 pre h6 {
+    color: rgb(219, 135, 9);
+}
+
+.div10 {
+    margin-top: 200px;
+    background-color: rgba(58, 95, 206, 0.808);
+    filter: blur(1.5);
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.div10 pre h4 {
+    color: darkgrey;
+}
+
+.div10 hr {
+    width: 220px;
+    background-color: rgb(219, 135, 9);
+    size: 2px;
+}
+
+.div11 ul li {
+    display: inline-block;
+    margin: 25px;
+}
+
+.div11 ul .li1 {
+    width: 250px;
+    height: 380px;
+    background-color: powderblue;
+}
+
+.div11 ul .li2 {
+    width: 250px;
+    height: 380px;
+    background-color: rgb(112, 235, 138);
+}
+
+.div11 ul .li3 {
+    width: 250px;
+    height: 380px;
+    background-color: rgb(218, 228, 126);
+}
+
+.div11 ul .li4 {
+    width: 250px;
+    height: 380px;
+    background-color: rgb(88, 54, 214);
+}
+
+.a1:hover {
+    color: white;
+}
+
+.a1 {
+    text-align: center;
+    text-decoration: none;
+}
+
+.a1 {
+    margin-top: 50px;
+}
